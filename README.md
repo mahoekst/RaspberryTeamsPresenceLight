@@ -8,9 +8,13 @@ This sample is tested with the 1.3inch OLED HAT with SPI/IC2 interface on my RPI
 clone repo and instal the following packages:
 
 pip3 install msal
+
 pip3 install luma.core
+
 pip3 install luma.oled
 
+
+Make sure you enable the SPI port for the OLED HAT
 raspi-config to enable SPI
 
 
